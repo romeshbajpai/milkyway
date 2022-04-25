@@ -1,0 +1,5 @@
+<h1>{{item}}</h1>
+<button (click)="userevent($event)">click</button>
+<input type="text"  (keyup)="userevent($event)" placeholder="Enter something">
+<p>box value is :{{displayval}}</p>
+<h3 *ngFor="let item of virat">name is:{{item.name}}--{{item.email}}</h3>

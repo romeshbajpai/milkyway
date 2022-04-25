@@ -1,0 +1,13 @@
+.form-center {
+position: absolute;
+right: 30px;
+  }
+  .mydata{
+    color:red;
+  }
+  h4 {
+    float:right;
+  }
+  form {
+       float:inline ;
+  }
